@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <style>
+        h1,h2,h4 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>Todos os elementos "h#" nessa seção serão estilizados na propriedade color, onde:<br />External = blue;<br />Internal = red;<br />Inline = purple.</p>
+        <h1 style="color: purple;">Serei editado pelas três formas de implementação de CSS</h1>
+        <h2>Serei editado pelas formas External e Internal</h2>
+        <h3 style="color: purple;">Serei editado pelas formas External e Inline</h3>
+        <h4 style="color: purple;">Serei editado pelas formas Internal e Inline</h4>
+        <h5>Serei editado somente pela forma External</h5>
+    </section>
+</body>
+</html>
