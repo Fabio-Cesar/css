@@ -1,0 +1,104 @@
+* {
+    background-color: beige;
+}
+
+#one p {
+    background-color: lightskyblue;
+}
+
+#one .paragrafo {
+    color:darkmagenta;
+}
+
+#one .linha {
+    text-decoration: underline;
+}
+
+#one #first-id {
+    font-size: larger;
+}
+
+#one div[data="custom"] {
+    color:darkgreen;
+}
+
+#two p[class^="data"] {
+    color: red;
+}
+
+#two p[class^="text"] {
+    color: blue;
+}
+
+#two p[class$="a"] {
+    font-size: larger;
+}
+
+#two p[class$="b"] {
+    font-size: smaller;
+}
+
+#two p[class*="custom"] {
+    text-decoration: line-through;
+}
+
+#three a:link {
+    color: aqua;
+}
+
+#three a:visited {
+    color: purple;
+}
+
+#three a:hover {
+    color: orange;
+}
+
+#three a:active {
+    color: red;
+}
+
+#three button:hover {
+    background: cyan;
+}
+
+#three button:active {
+    background: darkcyan;
+}
+
+#four .pseudo::first-letter {
+    font-size: larger;
+}
+
+#four .pseudo::first-line {
+    color: red;
+}
+
+#four .pseudo::before {
+    content: "BEGIN ->";
+}
+
+#four .pseudo::after {
+    content: " END."
+}
+
+#four .pseudo::selection {
+    color: white;
+    background-color: black;
+}
+
+#five .um p {
+    color: blue;
+}
+
+#five .dois > h4 {
+    color: red;
+}
+
+#five .tres h4 + h5 {
+    color: darkgreen;
+}
+
+#five .quatro h5 ~ h6 {
+    color: orangered;
+}

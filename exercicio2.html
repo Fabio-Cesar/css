@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="./style/style2.css" />
+</head>
+<body>
+    <!-- Essa seção demonstra seleção símples de elementos por tag, class, ID e atributo customizado "data" -->
+    <section id="one">
+        <p>Seletor por tag "p" (cor de fundo azul)</p>
+        <p class="paragrafo">Seletor por classe "paragrafo" (cor da letra magenta)</p>
+        <div class="paragrafo">Tag "div" com a mesma classe "paragrafo" (cor da letra magenta)</div>
+        <p class="paragrafo linha">Duas classes em uma mesma tag "p" (a tag linha sublinha o conteúdo)</p>
+        <div id="first-id">Seletor por ID (aumenta o tamanho da fonte)</div>
+        <div data="custom">Seletor por atributo data="custom" (cor verde)</div>
+    </section>
+    <!-- Essa seção demonstra as diferentes formas de selecionar usando início, fim ou qualquer lugar para strings em classes (também pode ser usado para atributos customizados "data" ou outros atributos) -->
+    <section id="two">
+        <p class="data-custom-a">Classe data-custom-a</p>
+        <p class="data-custom-b">Classe data-custom-b</p>
+        <p class="text-custom-a">Classe text-custom-a</p>
+        <p class="text-a">Classe text-a</p>
+        <p class="custom-data">Classe custom-data</p>
+    </section>
+    <!-- Essa seção demonstra o uso de pseudo-classes para tags "button" e "a" -->
+    <section id="three">
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Essa tag a possui estilos para pseudo-classes link, visited, hover e active</a>
+        <button>Essa tag button possui estilos para pseudo-classes hover e active</button>
+    </section>
+    <!-- Essa seção demonstra o uso de pseudo-elementos before, after, first-line, first-letter e selection -->
+    <section id="four">
+        <p class="pseudo">Esse parágrafo recebeu cinco pseudo-elementos!<br />Segunda linha.</p>
+    </section>
+    <!-- Essa seção demonstra o uso de combinators para a seleção -->
+    <section id="five">
+        <div class="um">
+            <p>Todos as tags "p" descendentes dessa div terão cor azul</p>
+            <div>
+                <p>Eu sou uma tag p dentro de um div dessa div</p>
+            </div>
+        </div>
+        <div class="dois">
+            <h4>Somente h4 filhos imediatos dessa div terão cor vermelha</h4>
+            <div>
+                <h4>Eu sou uma tag h4 dentro de um div dessa div</h4>
+            </div>
+        </div>
+        <div class="tres">
+            <h4>Somente h5 irmão adjacente dessa tag h4 terão cor verde</h4>
+            <h5>Eu sou uma tag h5 irmão adjacente</h5>
+            <h5>Eu sou uma tag h5 irmão adjacente?</h5>
+        </div>
+        <div class="quatro">
+            <h5>Todos os irmãos h6 dessa tag h5 terão cor laranja</h5>
+            <h6>Eu sou uma tag h6 irmão adjacente</h6>
+            <h6>Eu não sou uma tag h6 irmão adjacente!</h6>
+        </div>
+    </section>
+</body>
+</html>
