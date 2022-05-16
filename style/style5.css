@@ -1,0 +1,87 @@
+* {
+    box-sizing:border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#container div {
+    height: 14vw;
+    width: 14vw;
+}
+
+.bgsolid {
+    background-color: #d4b62a;
+}
+
+.bgopacity {
+    background-color: #d4b62a65;
+}
+
+.bggrad {
+    background-image: linear-gradient(to right, #bb6b25, #7e57d1, #ff4198);
+}
+
+.bgimg {
+    background-image:url(../images/background.jpg);
+    background-position: 10% 10%;
+    background-size: 100px 52px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.bgrepeat {
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    overflow-y: scroll;
+}
+
+.border1 {
+    display: flex;
+    border-top-color: cyan;
+    border-right-color: magenta;
+    border-bottom-color: yellow;
+    border-left-color: black;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: dashed;
+    border-top-width: 0.2vw;
+    border-right-width: 0.3vw;
+    border-bottom-width: 0.4vw;
+    border-left-width: 0.3vw;
+    border-top-left-radius: 7vw;
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.border2 {
+    display: flex;
+    border-color: cyan magenta yellow black;
+    border-style: dotted dashed;
+    border-width: 0.2vw 0.3vw 0.4vw;
+    border-radius: 7vw 5vw 3vw 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    background-image: url(../images/profile.jpg);
+    background-size: cover;
+    border-color: black;
+    border-radius: 7vw;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: pink;
+    box-shadow: 1vw 1vw 1.5vw lightcoral;
+}
