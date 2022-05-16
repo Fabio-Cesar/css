@@ -74,9 +74,9 @@
 }
 
 .profile {
+    height: 14vw;
+    width: 14vw;
     display: flex;
-    background-image: url(../images/profile.jpg);
-    background-size: cover;
     border-color: black;
     border-radius: 7vw;
     justify-content: center;
