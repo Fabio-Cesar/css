@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Brush Script MT', cursive;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+#containerA {
+    font-size: 1.5vw;
+    display: block;
+}
+
+#containerB {
+    font-size: 2vw;
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.position {
+    position: relative;
+    left: 0.5vw;
+}
+
+.fontlightest {
+    font-weight: 100;
+}
+
+.fontlighter {
+    font-weight: 200;
+}
+
+.fontlight {
+    font-weight: 300;
+}
+
+.fontlesslight {
+    font-weight: 400;
+}
+
+.fontnormal {
+    font-weight: 500;
+}
+
+.fontlessheavy {
+    font-weight: 600;
+}
+
+.fontheavy {
+    font-weight: 700;
+}
+
+.fontheavier {
+    font-weight: 800;
+}
+
+.fontheaviest {
+    font-weight: 900;
+}
+
+.textdeco1 {
+    text-decoration: underline chocolate;
+}
+
+.textdeco2 {
+    text-decoration: overline yellowgreen;
+}
+
+.textdeco3 {
+    text-decoration: line-through;
+}
+
+.textdeco4 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 0.4vh;
+}
+
+.verticallr {
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 0;
+    inline-size: 15vh;
+    block-size: 30vw;
+    overflow: auto;
+}
+
+.verticalrl {
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: 0;
+    inline-size: 30vh;
+    block-size: 15vw;
+    overflow: auto;
+}
+
+.horizontaltb {
+    writing-mode: horizontal-tb;
+    position: relative;
+    top: 30vh;
+    inline-size: 15vw;
+    block-size: 30vh;
+    overflow: auto;
+}
