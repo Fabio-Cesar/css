@@ -1,0 +1,70 @@
+.item {
+    width: 20px;
+    height: 20px;
+    background-color: #7b57bd;
+    color: white;
+}
+
+.stretch-item {
+    background-color: #d4b62a;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-style: dashed;
+    border-width: 4px;
+    margin: 4px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.rowreverse {
+    flex-direction: row-reverse;
+}
+
+.columnreverse {
+    flex-direction: column-reverse;
+}
+
+.center-main-cross{
+    justify-content: center;
+    align-items: center;
+}
+
+.space-around-main {
+    justify-content: space-around;
+}
+
+.space-between-main {
+    justify-content: space-between;
+}
+
+.space-evenly-main {
+    justify-content: space-evenly;
+}
+
+.start-main {
+    justify-content: flex-start;
+}
+
+.end-main {
+    justify-content: flex-end;
+}
+
+.stretch-cross {
+    align-items: stretch;
+}
+
+.center-main {
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}

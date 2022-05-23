@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style8.css" />
+    <title>CSS Flexbox</title>
+</head>
+    <!-- Os elementos estão dispostos em caixas de display flex -->
+    <p>Alinhando ao centro a imagem</p>
+    <div class="container center-main-cross">
+        <img src="./images/background.jpg" height="20px" width="20px" />
+    </div>
+    <p>Alinhando os itens com space-around</p>
+    <div class="container space-around-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens em coluna com space-around</p>
+    <div class="container column space-around-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens com space-evenly</p>
+    <div class="container space-evenly-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens com space-evenly em ordem reversa</p>
+    <div class="container rowreverse space-evenly-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens em coluna com space-between e ordem reversa</p>
+    <div class="container columnreverse space-between-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens no começo do container</p>
+    <div class="container start-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens no começo do container em ordem reversa</p>
+    <div class="container rowreverse start-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Alinhando os itens no fim do container em ordem reversa</p>
+    <div class="container rowreverse end-main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    <p>Esticando os itens do container que estão centralizados e com conteúdo no centro</p>
+    <div class="container stretch-cross center-main">
+        <div class="stretch-item center">A</div>
+        <div class="stretch-item center">B</div>
+        <div class="stretch-item center">C</div>
+    </div>
+    <p>Esticando os itens do container, que estão organizados em coluna com ordem reversa e distribuídos em space-evenly</p>
+    <div class="container columnreverse space-evenly-main stretch-cross">
+        <div class="stretch-item">A</div>
+        <div class="stretch-item">B</div>
+        <div class="stretch-item">C</div>
+    </div>
+<body>
